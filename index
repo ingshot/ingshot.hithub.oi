@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="setyel/app css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+      />
+    <title>Websait me</title>
+  </head>
+  <body>
+    <!-- set1 -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top" style="background-color: #8f468c">
+      <div class="container">
+       <a>
+        <a class="navbar-brand" href="#">
+        <img src="image/26-02-23.png" alt="" width="60" height="60"></a> 
+        <a class="navbar-brand" href="#">Letel settep</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#biodata">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#prrjects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cotntac">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- akir set1 -->
+    <!--set imge -->
+    <section id="Home">
+      <div class="container">
+        <div class="profile">
+          
+          <img src="image/foto.jpeg" class="foto">
+          <p><h2 style="color: aliceblue"><b>Ikbal eka saputra</b></h2>
+          <h5 style="color: aliceblue">designer logo</h5>
+          </p>
+        </div>
+      </div>
+    </section>
+  <!--terkir -->
+  <!--tambahan-->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#ffffff"
+        fill-opacity="1"
+        d="M0,96L24,80C48,64,96,32,144,37.3C192,43,240,85,288,122.7C336,160,384,192,432,176C480,160,528,96,576,69.3C624,43,672,53,720,85.3C768,117,816,171,864,186.7C912,203,960,181,1008,181.3C1056,181,1104,203,1152,202.7C1200,203,1248,181,1296,176C1344,171,1392,181,1416,186.7L1440,192L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"
+      ></path>
+    </svg>
+    <!---akir tambahan-->
+  </div>
+    <!--setep 2-->
+<section id="biodata" class="biodata">
+  <I><h1 class="text-center" >Keahlian dan Pendidikan</h1></I>
+  <div class="contener text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+         <div class="row">
+            <div class="col-md-6">
+              <div class="progress-wrap">
+              <i><h3><span class="name-left "style="color: blue;">Keahlian</span></h3></i>
+                <h3><span class="name-left">Corel DRAW</span><span class="value-right">80%</span></h3>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
+                  aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                  </div>
+                </div>
+              </div>
+              <div class="progress-wrap">
+                <h3><span class="name-left">WordPress</span><span class="value-right">50%</span></h3>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-2 progress-bar-striped active" role="progressbar"
+                  aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                  </div>
+                </div>
+              </div>
+              <div class="progress-wrap">
+                <h3><span class="name-left">microsoft excel</span><span class="value-right">85%</span></h3>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"
+                  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                  </div>
+                </div>
+              </div>
+              <div class="progress-wrap">
+                <h3><span class="name-left">HTML</span><span class="value-right">70%</span></h3>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-4 progress-bar-striped active" role="progressbar"
+                  aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+        <div class="col">
+          <i><h3><span class="name-left" style="color: blue;">pendidikan</span></h3></i>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  SDN MARGAHAYU V
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">pendidikan pertama saya di saat sekoah di SDN MARGAHAYU V  pada tahun ##### sampai tahun ###.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  SMP IT RAUDATUL JANNAH
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Pendidikan ke dua saya di SMPIT RAUDATUL JANNAH Pada Tahun #### Sammpai denagn Tahun #### di  sana saya di ajarkan tentang adap yang baik dalam beragama  </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  SMKN 8 KOTA BEKASI
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Pendidikan Ketiga saya di SMKN 8 KOTA BEKASI Dengan Jurusan Teknik Komputer Jaringan pada Tahu ###### Sampai dengan #### di sana saya  di ajarkan tenganga mengatur jarinag dan bangan mana mejalakan komputer dan pengrtian sistem. </div>
+              </div>
+            </div>
+          
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Unifversitas Bayangkara jakarta Raya
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">saya sedan berkuliah di Unifversitas tersebut. </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#8f468c" fill-opacity="1" d="M0,128L26.7,144C53.3,160,107,192,160,202.7C213.3,213,267,203,320,197.3C373.3,192,427,192,480,165.3C533.3,139,587,85,640,96C693.3,107,747,181,800,202.7C853.3,224,907,192,960,176C1013.3,160,1067,160,1120,160C1173.3,160,1227,160,1280,154.7C1333.3,149,1387,139,1413,133.3L1440,128L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path></svg>
+    <!--akir-->
+    
+   <section id="prrjects">
+    <div class="contener">
+      <div class="row">
+        <div class="col">
+        <i> <p> <h2 class="text-center" style="color: rgb(252, 254, 254);">My Projects</h2></p></i>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="card" style="width: 16rem;">
+                  <img src="image/ga ada ide.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">sun  </h5>
+                    <p class="card-text">In addition to sun francisco designs, you can explore the marketplace for retro, sports, and los angeles designs sold by independent artists.t.</p>
+                    <a href="https://www.teepublic.com/t-shirt/36604337-san?store_id=1314594" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="card" style="width: 16rem;">
+                  <img src="image/Untitled-32.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Litte Step</h5>
+                    <p class="card-text">We want you to love your order! If for any reason you don't, let us know and we’ll make things right.</p>
+                    <a href="https://www.teepublic.com/t-shirt/36604337-san?store_id=1314594" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="card" style="width: 16rem;">
+                  <img src="image/TUTOL.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">animasi</h5>
+                    <p class="card-text">100% combed ringspun cotton. The perfect fabric for a graphic tee and the softest in the business. (Due to product availability, cotton type may vary for 2XL and 3XL sizes).</p>
+                    <a href="https://www.teepublic.com/t-shirt/36604337-san?store_id=1314594" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="card" style="width: 16rem;">
+                  <img src="image/ART.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">picture</h5>
+                    <p class="card-text">In addition to red panda designs, you can explore the marketplace for cute, red panda lover, and kawaii designs sold by independent artists. </p>
+                    <a href="https://www.teepublic.com/t-shirt/36604337-san?store_id=1314594" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="card" style="width: 16rem;">
+                  <img src="image/netwok.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Netwok</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="https://www.teepublic.com/t-shirt/44906624-network?store_id=1314594" class="btn btn-primary">netwok</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="card" style="width: 16rem;">
+                  <img src="image/gabut 3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">ART 2</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="https://www.teepublic.com/t-shirt/30858463-art?store_id=1314594" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="card" style="width: 16rem;">
+                  <img src="image/logo seram.jpg"card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Scary</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="https://www.teepublic.com/t-shirt/30782733-scary?store_id=1314594o" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="card" style="width: 16rem;">
+                  <img src="image/hidup.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">life </h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="https://www.teepublic.com/t-shirt/34868947-life?store_id=1314594" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+
+        </div>
+        
+      </div>
+<!--akir-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <path
+    fill="#fff"
+    fill-opacity="3"
+    d="M0,96L24,80C48,64,96,32,144,37.3C192,43,240,85,288,122.7C336,160,384,192,432,176C480,160,528,96,576,69.3C624,43,672,53,720,85.3C768,117,816,171,864,186.7C912,203,960,181,1008,181.3C1056,181,1104,203,1152,202.7C1200,203,1248,181,1296,176C1344,171,1392,181,1416,186.7L1440,192L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"
+  ></path>
+</svg>
+    </div>
+   </section>
+
+<!--setep 3-->
+<section id="cotntac" class="footer">
+  <h1 class="text-center">Contact</h1>
+  <div class="row justify-content-center"> 
+  <div class="col-md-6">
+    <div class="mb-3">
+      <label for="nama" class="form-label">nama</label>
+      <input type="text" class="form-control" id="nama" aria-describedby="nama">
+      
+    </div>
+    <div class="mb-3">
+      <label for="Email" class="form-label">Email </label>
+      <input type="email" class="form-control" id="Email" aria-describedby="Email">
+      
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+  </div>
+
+  <div class="contener text-center">
+    <a href="https://www.youtube.com/@langkahsikecil1932"><i class="bi bi-youtube"></i></a>
+<a href="https://www.instagram.com/iqbalekasyahputra/"><i class="bi bi-instagram"></i></a>
+<a href="https://web.facebook.com/iqbal.e.syahputra.1"><i class="bi bi-facebook"></i></a>
+  </div>
+</div>
+
+</section>
+
+  
+<!--akie 3-->
+  
+    
+  
+  
+      
+    
+     
+   
+   
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
